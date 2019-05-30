@@ -1,0 +1,16 @@
+# Conda environment description for project
+# See requirements.txt for versions used in recent work
+
+name: meopar-hg
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - commonmark
+  - pandoc
+  - pandocfilters
+  - pip
+  - python
+  - pyyaml
