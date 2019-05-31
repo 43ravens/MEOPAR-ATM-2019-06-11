@@ -4,14 +4,14 @@ MEOPAR 2019 ATM Version Control for Researchers
 
 This repo contains teaching content for the MEOPAR 2019 Annual Training Meeting Version Control for Researchers workshop held on 11-Jun-2019 in Victoria, BC.
 
-The content is rendered at http://43ravens.ca/training/meopar-atm-2019-06-11/.
+The content is rendered at https://43ravens.ca/training/meopar-atm-2019-06-11/.
 
 Some of the instructional material in this repo is based on the `Software Carpentry Foundation`_ lesson that introduces `Version Control with Mercurial`_.
 The design of the web pages is also adapted from `Software Carpentry`_ lessons pages.
 
-.. _Software Carpentry Foundation: http://software-carpentry.org/
-.. _Version Control with Mercurial: http://swcarpentry.github.io/hg-novice/
-.. _Software Carpentry: http://software-carpentry.org/
+.. _Software Carpentry Foundation: https://software-carpentry.org/
+.. _Version Control with Mercurial: https://swcarpentry.github.io/hg-novice/
+.. _Software Carpentry: https://software-carpentry.org/
 
 
 License
