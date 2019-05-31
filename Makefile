@@ -30,13 +30,13 @@ preview : $(DST_ALL)
 
 ## rsync    : rsync built site and assets to web server
 rsync :
-	rsync -av \
+	rsync -rtlv \
 	README.rst \
 	css \
 	fig \
 	*.html \
 	intro-slides.pdf \
-	douglatornell.ca:webapps/djl_static/training/meopeers-2015-06-15/
+	43ravens.ca:webapps/43ravens_site/training/meopar-atm-2019-06-11/
 
 ## settings : Show variables and settings.
 settings :
