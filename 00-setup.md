@@ -41,5 +41,4 @@ see the [downloads page][downloads page] for instructions appropriate for popula
 
 **Optional:** The above is for the command-line (Terminal) version of Mercurial.
 If you want to try a mouse and windows graphical user interface (GUI),
-you can install [TortoiseHg][tortoisehg].
-Please see the downloads page there for instructions for your flavour of Linux.
+you may be able to install [TortoiseHg][tortoisehg] via your system package manager.
