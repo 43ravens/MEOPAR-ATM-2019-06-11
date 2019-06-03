@@ -40,6 +40,13 @@ but the workflow that they encourage.
 > Follow the [setup instructions](00-setup.html) to install [Mercurial][mercurial] or [TortoiseHg](https://tortoisehg.bitbucket.io/) on your laptop.
 
 
+## Topics
+
+### The Basics
+0. [Setup Instructions](00-setup.html)
+1. [Configuring Mercurial](01-configuration.html)
+
+
 Some of the instructional material in this workshop is based on the [Software Carpentry][swc] lesson that introduces [Version Control with Mercurial](https://swcarpentry.github.io/hg-novice/).
 The design of the web pages is also adapted from an iteration of the [Software Carpentry][swc] lessons pages.
 
