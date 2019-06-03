@@ -44,6 +44,7 @@ but the workflow that they encourage.
 
 ### The Basics
 0. [Setup Instructions](00-setup.html)
+1. [Intro Slides](intro-slides.pdf)
 1. [Configuring Mercurial](01-configuration.html)
 
 
