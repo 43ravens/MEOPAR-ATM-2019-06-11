@@ -45,9 +45,12 @@ but the workflow that they encourage.
 * [Setup Instructions](00-setup.html)
 * [Intro Slides](intro-slides.pdf)
 
+
 ### The Basics
+
 1. [Configuring Mercurial](01-configuration.html)
 2. [Creating a Repository](02-create-repo.html)
+3. [Tracking Files](03-tracking.html)
 
 
 ## Other Resources
