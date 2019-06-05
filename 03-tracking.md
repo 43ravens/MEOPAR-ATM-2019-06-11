@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Version Control with Mercurial
-subtitle: Tracking Changes to Files
+subtitle: Tracking Files
 ---
 > ## Learning Objectives {.objectives}
 >
