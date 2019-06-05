@@ -42,10 +42,12 @@ but the workflow that they encourage.
 
 ## Topics
 
+* [Setup Instructions](00-setup.html)
+* [Intro Slides](intro-slides.pdf)
+
 ### The Basics
-0. [Setup Instructions](00-setup.html)
-1. [Intro Slides](intro-slides.pdf)
 1. [Configuring Mercurial](01-configuration.html)
+2. [Creating a Repository](02-create-repo.html)
 
 
 ## Other Resources
