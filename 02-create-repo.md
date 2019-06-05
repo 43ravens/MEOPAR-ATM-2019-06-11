@@ -32,6 +32,7 @@ In TortoiseHg,
 use `File > New Repository`,
 browse to the directory (folder) where you want to create your repository,
 and type the repository name as the last element in the `Destination path:` box,
+uncheck the `Create special files (.hgignore, ...)` checkbox,
 then click the `Create` button.
 
 Mercurial commands are written `hg verb`,
