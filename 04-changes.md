@@ -47,11 +47,11 @@ which shows us the differences between the current state of the file and the mos
 $ hg diff
 ~~~
 ~~~ {.output}
-diff -r 1320339bbcae plan.txt
---- a/plan.txt  Tue Jun 09 14:41:27 2015 +0200
-+++ b/plan.txt  Tue Jun 09 15:07:42 2015 +0200
-@@ -1,1 +1,3 @@
- Goal: Run NEMO everyday to forecast storm surge water levels
+diff -r 823fd5e1b20f -r 8b3c15d3bf0f plan.txt
+--- a/plan.txt  Wed Jun 05 14:17:06 2019 -0700
++++ b/plan.txt  Wed Jun 05 16:42:43 2019 -0700
+@@ -1,2 +1,3 @@
+ Goal: Run NEMO every day to forecast storm surge water levels
 +
 +Need daily high resolution weather forcing from ECCC
 ~~~
@@ -84,17 +84,16 @@ We can see our commits with `hg log`:
 $ hg log
 ~~~
 ~~~ {.output}
-changeset:   1:b31241913818
+changeset:   1:8b3c15d3bf0f
 tag:         tip
-user:        Susan Allen <sallen@eos.ubc.ca>
-date:        Tue Jun 09 15:16:11 2015 +0200
+user:        Susan Allen <sallen@eoas.ubc.ca>
+date:        Wed Jun 05 16:42:43 2019 -0700
 summary:     Add note about source for atmospheric forcing
 
-changeset:   0:1320339bbcae
-user:        Susan Allen <sallen@eos.ubc.ca>
-date:        Tue Jun 09 14:41:27 2015 +0200
-summary:     Starting to plan the daily NEMO forecast system
-
+changeset:   0:823fd5e1b20f
+user:        Susan Allen <sallen@eoas.ubc.ca>
+date:        Wed Jun 05 14:17:06 2019 -0700
+summary:     Start to planning the daily NEMO forecast system
 ~~~
 
 Of course sometimes we may not want to commit everything at once.
@@ -138,11 +137,11 @@ Also need daily average Fraser River flow from ECCC
 $ hg diff
 ~~~
 ~~~ {.output}
-diff -r b31241913818 plan.txt
---- a/plan.txt  Tue Jun 09 15:16:11 2015 +0200
-+++ b/plan.txt  Tue Jun 09 15:25:33 2015 +0200
+diff -r 8b3c15d3bf0f -r 77d20ec178e3 plan.txt
+--- a/plan.txt  Wed Jun 05 16:42:43 2019 -0700
++++ b/plan.txt  Wed Jun 05 16:52:52 2019 -0700
 @@ -1,3 +1,4 @@
- Goal: Run NEMO everyday to forecast storm surge water levels
+ Goal: Run NEMO every day to forecast storm surge water levels
 
  Need daily high resolution weather forcing from ECCC
 +Also need daily average Fraser River flow from ECCC
@@ -164,22 +163,21 @@ and look at the history of what we've done so far:
 $ hg log
 ~~~
 ~~~ {.output}
-changeset:   2:2e15a7ee29c2
+changeset:   2:77d20ec178e3
 tag:         tip
-user:        Susan Allen <sallen@eos.ubc.ca>
-date:        Tue Jun 09 15:28:25 2015 +0200
+user:        Susan Allen <sallen@eoas.ubc.ca>
+date:        Wed Jun 05 16:52:52 2019 -0700
 summary:     Add note about data source for Fraser River flow forcing
 
-changeset:   1:b31241913818
-user:        Susan Allen <sallen@eos.ubc.ca>
-date:        Tue Jun 09 15:16:11 2015 +0200
+changeset:   1:8b3c15d3bf0f
+user:        Susan Allen <sallen@eoas.ubc.ca>
+date:        Wed Jun 05 16:42:43 2019 -0700
 summary:     Add note about source for atmospheric forcing
 
-changeset:   0:1320339bbcae
-user:        Susan Allen <sallen@eos.ubc.ca>
-date:        Tue Jun 09 14:41:27 2015 +0200
-summary:     Starting to plan the daily NEMO forecast system
-
+changeset:   0:823fd5e1b20f
+user:        Susan Allen <sallen@eoas.ubc.ca>
+date:        Wed Jun 05 14:17:06 2019 -0700
+summary:     Start to planning the daily NEMO forecast system
 ~~~
 
 
