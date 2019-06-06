@@ -111,12 +111,12 @@ we can ask Mercurial to show us the project's history using `hg log`:
 $ hg log
 ~~~
 ~~~ {.output}
-changeset:   0:1320339bbcae
+changeset:   0:823fd5e1b20f
 tag:         tip
-user:        Susan Allen <sallen@eos.ubc.ca>
-date:        Tue Jun 09 14:41:27 2015 +0200
-summary:     Starting to plan the daily NEMO forecast system.
-
+user:        Susan Allen <sallen@eoas.ubc.ca>
+date:        Wed Jun 05 14:17:06 2019 -0700
+summary:     Start to planning the daily NEMO forecast system
+summary:     Starting to plan the daily NEMO forecast system
 ~~~
 
 `hg log` lists all changes committed to a repository,
