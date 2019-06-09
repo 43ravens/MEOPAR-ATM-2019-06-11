@@ -114,7 +114,7 @@ $ hg commit -m "Cite Sastri and Dower (2009)." methods.txt biblio.txt
 ...
 <later>
 ...
-$ hg commit conclusions.txt -m "Update conclusions re: phyto bloom timing mismatches."
+$ hg commit conclusions.txt -m "Update conclusions re: phyto bloom timing mismatches"
 ~~~
 
 Notice that the list of file names can come before or after the commit comment
@@ -154,7 +154,7 @@ Now,
 let's commit our changes:
 
 ~~~ {.bash}
-$ hg commit plan.txt -m "Add note about data source for Fraser River flow forcing."
+$ hg commit plan.txt -m "Add note about data source for Fraser River flow forcing"
 ~~~
 
 and look at the history of what we've done so far:
