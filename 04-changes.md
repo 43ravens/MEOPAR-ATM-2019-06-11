@@ -93,7 +93,7 @@ summary:     Add note about source for atmospheric forcing
 changeset:   0:823fd5e1b20f
 user:        Susan Allen <sallen@eoas.ubc.ca>
 date:        Wed Jun 05 14:17:06 2019 -0700
-summary:     Start to planning the daily NEMO forecast system
+summary:     Start planning the daily NEMO forecast system
 ~~~
 
 Of course sometimes we may not want to commit everything at once.
@@ -177,7 +177,7 @@ summary:     Add note about source for atmospheric forcing
 changeset:   0:823fd5e1b20f
 user:        Susan Allen <sallen@eoas.ubc.ca>
 date:        Wed Jun 05 14:17:06 2019 -0700
-summary:     Start to planning the daily NEMO forecast system
+summary:     Start planning the daily NEMO forecast system
 ~~~
 
 

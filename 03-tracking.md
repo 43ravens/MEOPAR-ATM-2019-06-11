@@ -84,7 +84,7 @@ To get it to do that,
 we need to run one more command:
 
 ~~~ {.bash}
-$ hg commit -m "Starting to plan the daily NEMO forecast system"
+$ hg commit -m "Start planning the daily NEMO forecast system"
 ~~~
 
 When we run `hg commit`,
@@ -115,8 +115,7 @@ changeset:   0:823fd5e1b20f
 tag:         tip
 user:        Susan Allen <sallen@eoas.ubc.ca>
 date:        Wed Jun 05 14:17:06 2019 -0700
-summary:     Start to planning the daily NEMO forecast system
-summary:     Starting to plan the daily NEMO forecast system
+summary:     Start planning the daily NEMO forecast system
 ~~~
 
 `hg log` lists all changes committed to a repository,
