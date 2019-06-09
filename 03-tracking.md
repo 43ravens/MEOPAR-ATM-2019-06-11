@@ -9,6 +9,7 @@ subtitle: Tracking Files
 > * Add files to Mercurial's collection of tracked files.
 > * Record metadata about changes to a file.
 > * Display the history of changes to files in a repository and explain the metadata that is recorded with each changeset.
+> * Explain how to initialize a Mercurial repository for a collection of files that already exist.
 
 Let's create a file called `plan.txt` in which Susan is going to write her initial ideas and notes about the Salish Sea NEMO daily forecast system.
 You can use any text editor you want
@@ -141,6 +142,15 @@ identifier.
 > That's because Mercurial saves information about files' history in the special `.hg` directory mentioned earlier so that our filesystem doesn't become cluttered
 > (and so that we can't accidentally edit or delete an old version).
 
+In the previous section and this one we created a repository from scratch for a new project.
+But you probably have work in progress that you will start using version control for after this workshop (I hope :-)
+The steps to do that are almost the same:
+
+* Navigate into the top level directory (folder) of the collection of files that you want to track
+* Do an `hg init` command (without a directory name), or use the TortoiseHg `File > New Repository...` dialog
+* Use `hg add` to add the files that you want to track
+* Use `hg commit` to commit those files
+
 
 > ## Learning Objectives {.objectives}
 >
@@ -148,3 +158,4 @@ identifier.
 > * Add files to Mercurial's collection of tracked files.
 > * Record metadata about changes to a file.
 > * Display the history of changes to files in a repository and explain the metadata that is recorded with each changeset.
+> * Explain how to initialize a Mercurial repository for a collection of files that already exist.
