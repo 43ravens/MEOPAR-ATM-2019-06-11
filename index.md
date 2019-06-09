@@ -64,6 +64,8 @@ but the workflow that they encourage.
 
 * [An Intro to Version Control Slidedeck](intro-slides.pdf)
 * [Mercurial: The Definitive Guide](http://hgbook.red-bean.com/) (also known as "The Red-bean Book")
+* [Mercurial Web Site](https://www.mercurial-scm.org/)
+
 
 Some of the instructional material in this workshop is based on the [Software Carpentry][swc] lesson that introduces [Version Control with Mercurial](https://swcarpentry.github.io/hg-novice/).
 The design of the web pages is also adapted from an iteration of the [Software Carpentry][swc] lessons pages.
