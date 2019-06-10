@@ -60,6 +60,11 @@ but the workflow that they encourage.
 6. [Recovering Old Versions](06-revert.html)
 
 
+### Reaching Out
+
+7. [Remote Repositories](07-remote-repos.html)
+
+
 ## Other Resources
 
 * [An Intro to Version Control Slidedeck](intro-slides.pdf)
