@@ -195,3 +195,6 @@ summary:     Start planning the daily NEMO forecast system
 > then modify one line,
 > add a fourth line,
 > and display the differences between the file's updated state and its original state.
+>
+> **Important:** Be sure to create your `bio` repository on your Desktop *beside* your `forecast` repository,
+> not inside `forecast`.
