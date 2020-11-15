@@ -36,7 +36,7 @@ rsync :
 	fig \
 	*.html \
 	intro-slides.pdf \
-	43ravens.ca:webapps/43ravens_site/training/meopar-atm-2019-06-11/
+	43ravens.ca:apps/43ravens-site/training/meopar-atm-2019-06-11/
 
 ## settings : Show variables and settings.
 settings :
