@@ -4,4 +4,4 @@ certifi==2019.3.9
 commonmark==0.9.0
 future==0.17.1
 pandocfilters==1.4.2
-PyYAML==5.1
+PyYAML==5.4
