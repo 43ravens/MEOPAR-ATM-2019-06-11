@@ -1,6 +1,6 @@
 # Packages and versions used for recent development
 
-certifi==2023.7.22
+certifi==2024.7.4
 commonmark==0.9.0
 future==0.18.3
 pandocfilters==1.4.2
